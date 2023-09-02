@@ -169,6 +169,8 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "tsx",
         "typescript",
+        "c_sharp",
+        "http",
       })
     end,
   },
@@ -208,6 +210,8 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "omnisharp",
+        "powershell-editor-services",
       },
     },
   },
